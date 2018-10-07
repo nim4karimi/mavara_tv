@@ -11,17 +11,12 @@
     </head>
 
     <body>
-
     {% include 'include/_menu.html' %}
     {% block content %} {% endblock %}
-
     {% include 'include/_floating_btn.html' %}
     {% include 'include/_footer.html' %}
-
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="{% static 'tv/js/materialize.js' %}"></script>
       <script type="text/javascript" src="{% static 'tv/js/init.js' %}"></script>
-
-
     </body>
   </html>
